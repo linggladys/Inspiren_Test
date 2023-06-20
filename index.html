@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;900&display=swap");
+    </style>
+    <!-- Bootstrap CDN link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>CYBERDYNE</title>
+  </head>
+  <body>
+    <nav
+      class="navbar fixed-top navbar-expand-lg bg-custom-navbar navbar-dark "
+      id="customNav"
+    >
+      <div class="container">
+        <div class="navbar-content">
+          <a class="navbar-brand" href="#">
+            <img
+              class="navbar-logo-holder"
+              src="images/logo.png"
+              alt="Placeholder logo"
+            />
+          </a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsableNavbar"
+          aria-controls="collapsableNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsableNavbar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Insights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="someCarousel">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/carouselimg1.png"
+              class="d-block w-100"
+              alt="Slide 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/carouselimg2.png"
+              class="d-block w-100"
+              alt="Slide 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/carouselimg3.png"
+              class="d-block w-100"
+              alt="Slide 3"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <div id="countdownSection">
+      <h2 class="text-center text-black">
+        Countdown to International Conference on Cybernics HAL 2023
+      </h2>
+      <p class="text-center fs-5">HAL 2023 will be held on <span class="countdown-emphasis">October 13th, 2023</span></p>
+      <div class="row m-5 countdown-holder"></div>
+    </div>
+    <main>
+      <section id="sectionOne">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-md-12">
+              <p class="section-title-one fw-light text-uppercase">
+                Upcoming conference
+              </p>
+              <h2 class="fw-bold pb-2">
+                International Conference on Cybernics HAL 2023
+              </h2>
+              <p class="fs-6 text-white">
+                Discover what International Conference on Cybernics HAL 2023 has
+                to offer for everyone!
+              </p>
+              <div class="pb-4">
+                <button type="button" class="btn btn-light btn-custom">
+                  More Details
+                </button>
+                <button type="button" class="btn btn-light btn-custom">
+                  Speakers Profile
+                </button>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-3 p-0">
+                  <figure>
+                    <div class="img-box">
+                      <img
+                        src="images/sec1pic1.png"
+                        class="img-fluid"
+                        alt="Keynote Speaker"
+                      />
+                      <p class="img-text">High Profile Keynote Speaker</p>
+                    </div>
+                  </figure>
+                </div>
+                <div class="col-md-3 p-0">
+                  <figure>
+                    <div class="img-box">
+                      <img
+                        src="images/sec1pic2.png"
+                        class="img-fluid"
+                        alt="Valuable"
+                      />
+                      <p class="img-text">Great & Valuable Opportunities</p>
+                    </div>
+                  </figure>
+                </div>
+                <div class="col-md-3 p-0">
+                  <figure>
+                    <div class="img-box">
+                      <img
+                        src="images/sec1pic3.png"
+                        class="img-fluid"
+                        alt="Showcase"
+                      />
+                      <p class="img-text">Educate & Showcase</p>
+                    </div>
+                  </figure>
+                </div>
+                <div class="col-md-3 p-0">
+                  <figure>
+                    <div class="img-box">
+                      <img
+                        src="images/sec1pic4.png"
+                        class="img-fluid"
+                        alt="Clicnical Update"
+                      />
+                      <p class="img-text">Latest Clinical Update</p>
+                    </div>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sectionTwo">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-md-12">
+              <img src="images/blockquote.png" class="extra-img-asset" alt="Quotes Mark">
+              <h4 class="text-uppercase">Sponsorship Opportunities</h4>
+              <p class="fw-bold">
+                International Conference on Cybernics HAL 2023 gives you the
+                opportunity to make your investment work harder now than ever.
+              </p>
+              <p class="fw-light">
+                The quality of connections range from events and digital
+                marketing, to more qualified connections you can make through
+                networking sessions, workshop and roundtable session. Grow your
+                international presence in business with multiple opportunities
+                to reach new and potential customers from across the globe.
+              </p>
+            </div>
+            <div class="col-md-12">
+              <div class="row m-3">
+                <div class="col-md-3">
+                  <div class="d-flex justify-content-center mb-3">
+                    <img
+                      src="images/sec2icon1.png"
+                      class="icon-img"
+                      alt="Icon 1"
+                    />
+                  </div>
+                  <p class="section-two-title">Seal the deals</p>
+                  <p class="fw-light text-center">
+                    While You're Attending The Show
+                  </p>
+                </div>
+                <div class="col-md-3">
+                  <div class="d-flex justify-content-center mb-3">
+                    <img
+                      src="images/sec2icon2.png"
+                      class="icon-img"
+                      alt="Icon 2"
+                    />
+                  </div>
+                  <p class="section-two-title">Face-To-Face</p>
+                  <p class="fw-light text-center">Networking</p>
+                </div>
+                <div class="col-md-3">
+                  <div class="d-flex justify-content-center mb-3">
+                    <img
+                      src="images/sec2icon3.png"
+                      class="icon-img"
+                      alt="Icon 3"
+                    />
+                  </div>
+                  <p class="section-two-title">Live Product</p>
+                  <p class="fw-light text-center">Demo</p>
+                </div>
+                <div class="col-md-3">
+                  <div class="d-flex justify-content-center mb-3">
+                    <img
+                      src="images/sec2icon4.png"
+                      class="icon-img"
+                      alt="Icon 4"
+                    />
+                  </div>
+                  <p class="section-two-title">Create Lasting</p>
+                  <p class="fw-light text-center">Relationships</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-9">
+                  <p class="fw-bold">
+                    BE PART OF OUR INTERNATIONAL CONFERENCE on CYBERNICS HAL
+                    2023
+                  </p>
+                </div>
+                <div class="col-md-3">
+                  <div class="btn-group" role="group">
+                    <a class="btn btn-custom-two" href="#" role="button"
+                      >Find Out More
+                    </a>
+                    <div class="btn btn-custom-two-extra">
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sectionThree">
+        <div class="container">
+          <div class="row p-5">
+            <div class="col-md-12">
+              <div class="row m-3">
+                <p class="text-uppercase section3-title-line">
+                  Meet with Distributors All Around Apac <span class="title-line"></span>
+                </p>
+               
+                <div class="col-md-3">
+                  <img src="images/distri1.jpg" class="img-fluid" alt="Futuristics">
+                </div>
+                <div class="col-md-3"><img src="images/distri2.png" class="img-fluid" alt="Perkeso"></div>
+                <div class="col-md-3"><img src="images/distri3.png" class="img-fluid" alt="Orthocare"></div>
+                <div class="col-md-3"><img src="images/distri4.png" class="img-fluid" alt="Robofit"></div>
+                <div class="col-md-3"><img src="images/distri5.png" class="img-fluid" alt="Robocare"></div>
+                <div class="col-md-3"><img src="images/distri6.png" class="img-fluid" alt="Zignature"></div>
+                <div class="col-md-3"><img src="images/distri7.png" class="img-fluid" alt="CHC"></div>
+                <div class="col-md-3"><img src="images/distri8.png" class="img-fluid" alt="Opto"></div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="row m-3">
+                <p class="text-uppercase section3-title-line partner-title">Our Parnters</p>
+                <div class="d-flex justify-content-center">
+                  <div class="col-md-6">
+                    <img
+                      src="images/ourpart1.png"
+                      alt="Tano"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                    src="images/ourpart2.png"
+                    alt="Cogy"
+                    class="img-fluid"
+                  />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sectionFour">
+        <div class="container">
+          <div class="row p-5">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-center">
+              <iframe width="1140" height="500" src="https://www.youtube.com/embed/ofA7oSDFIt4" title="Cyberdyne Product Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="row p-5">
+            <div class="col-md-12">
+            <h4 class="text-uppercase section4-title">Our Products</h4>
+            <p class="fw-bold fs-5">
+              IHAL [Hybrid Assistive Limb] is the world‘s first * Wearable Cyborg, by which a wearer‘s physical functions can be improved, supported, enhanced and regenerated. Our 3 main products consist of HAL Lower Limb Type, Single Joint Type, and Lumbar Type.
+            </p>
+            <button type="button" class="btn btn-custom-three">View All Products</button>
+          </div>
+          </div>
+          
+        </div>
+        </div>
+        
+      </section>
+    </main>
+    <footer id="websiteFooter">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-md-6" id="brandingSocials">
+            <aside>
+              <div class="mb-3">
+                    <img
+              src="images/logo.png"
+              class="img-fluid"
+              alt="Placeholder logo"
+            /> 
+              </div>
+           
+            </aside>
+            <aside>
+              <div class="footer-social d-flex align-items-stretch">
+                  <span class="social-media-link">
+                <i class="fa-brands fa-facebook"></i>
+              </span>
+              <span class="social-media-link">
+                <i class="fa-brands fa-linkedin"></i>
+              </span>
+              <span class="social-media-link">
+                <i class="fa-brands fa-youtube"></i>
+              </span>
+              </div>
+            
+            </aside>
+          
+          </div>
+          <div class="col-md-6" id="footerMenu">
+            <h3 class="text-white text-capitalize">Quick Links</h3>
+            <nav class="navbar navbar-expand-lg bg-custom-navbar navbar-dark">
+              <div class="container">
+               
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Event</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Insights</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link">Contact Us</a>
+                    </li>
+                  </ul>
+              
+              </div>
+            </nav>
+            <span class="text-white">2023 CYBERDYNE, INC. 202201004730 (1450427-U). All Rights Reserved ©</span> 
+          </div>
+         
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script
+  </body>
+</html>
