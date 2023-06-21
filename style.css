@@ -1,3 +1,4 @@
+/* COLOUR PALETTES FOR THE WEBSITE */
 :root {
   --main-color: #262c42;
   --sub-color-one: #fa66c1;
@@ -5,6 +6,7 @@
   --sub-color-three: #bebebe;
 }
 
+/* THE HTML PRE-REQUISITE(?) */
 html,
 body {
   height: 100% !important;
@@ -14,7 +16,6 @@ body {
 }
 
 /* NAVIGATION BAR */
-/* custom image size for the logo */
 .navbar-logo-holder {
   width: 216px;
 }
@@ -40,7 +41,7 @@ body {
 }
 
 ul.navbar-nav > li.nav-item {
-  margin-right: 40px !important;
+  margin-right: 20px !important;
 }
 
 ul.navbar-nav > li.nav-item :hover {
@@ -59,7 +60,11 @@ li.nav-item> a.nav-link.active {
   background-color: #ebecec !important;
 }
 
-.custom-dropdown > li.nav-item :hover{
+.custom-dropdown > li > a.dropdown-item{
+  background-color: transparent;
+}
+
+.custom-dropdown > li > a.dropdown-item:hover{
   color: var(--main-color) !important;
 }
 
@@ -102,7 +107,7 @@ li.nav-item> a.nav-link.active {
   color: var(--sub-color-one);
 }
 
-/* section one */
+/* SECTION ONE - CONFERENCE */
 #sectionOne {
   background-color: var(--main-color);
 }
@@ -144,7 +149,7 @@ h4.section-one-title {
   color: white;
 }
 
-/* section two */
+/* SECTION TWO - SPONSORSHIP */
 #sectionTwo {
   background-image: url("images/cyberdynebg.png");
   background-repeat: no-repeat;
@@ -192,13 +197,10 @@ img.icon-img {
   font-size: 16px;
   text-align: center;
   background-color: var(--sub-color-one);
-}
-
-.btn-custom-two-extra:hover {
   pointer-events: none;
 }
 
-/* section 3 */
+/* SECTION THREE - COMPANIES SPONSORS */
 #sectionThree{
   background-color: white;
 }
@@ -229,12 +231,7 @@ p.section3-title-line {
 }
 
 
-.partners-section {
-  /* width: 85%; */
-  margin-left: -15px;
-  margin-right: -15px;
-}
-
+/* SECTION FOUR - PRODUCT INFO */
 #sectionFour {
   background-image: url("images/pplwalking.jpg");
   background-repeat: no-repeat;
@@ -250,7 +247,7 @@ p.section3-title-line {
 }
 
 .video-wrapper{
-  min-width: 1330px;         
+  min-width: 100%;         
   padding-bottom: 56.25%;  
   height: 0px;           
   position: relative; 
@@ -264,11 +261,13 @@ p.section3-title-line {
   height: 100%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 991px) {
   .video-wrapper {
-    min-width: 360px;
+    min-width: 283px;
   }
 }
+
+
 .btn-custom-three {
   background-color: var(--main-color);
   color: white;
@@ -288,11 +287,9 @@ p.section3-title-line {
   background-color: var(--main-color);
 }
 
-div#footerMenu > h3.text-white {
-  margin: 5px;
-  font-weight: 500;
-  text-transform: lowercase;
-}
+/* div#footerMenu > nav.navbar {
+  margin: 20px;
+} */
 
 div#brandingSocials > img {
   height: 76px;
@@ -314,6 +311,11 @@ div#brandingSocials > img {
   color: #fff;
 }
 
+.custom-footer{
+  color:white;
+  font-size: 0.8em;
+}
+
 @media screen and (max-width: 767px) {
    .footer-social {
     display: flex;
@@ -325,9 +327,10 @@ div#brandingSocials > img {
     text-align: center;
   }
 
-  div#footerMenu > nav.navbar{
+  div#footerMenu > ul.nav{
     flex-wrap: wrap;
     justify-content: center;
   }
   
+
 }
