@@ -48,58 +48,58 @@ ul.navbar-nav > li.nav-item :hover {
   color: var(--sub-color-one) !important;
 }
 
-li.nav-item> a.nav-link {
+li.nav-item > a.nav-link {
   color: white !important;
 }
 
-li.nav-item> a.nav-link.active {
+li.nav-item > a.nav-link.active {
   color: var(--sub-color-one) !important;
 }
 
-.custom-dropdown{
+.custom-dropdown {
   background-color: #ebecec !important;
 }
 
-.custom-dropdown > li > a.dropdown-item{
+.custom-dropdown > li > a.dropdown-item {
   background-color: transparent;
 }
 
-.custom-dropdown > li > a.dropdown-item:hover{
+.custom-dropdown > li > a.dropdown-item:hover {
   color: var(--main-color) !important;
 }
 
 /* COUNTDOWN SECTION */
-#countdownSection{
-    padding: 35px 0;
-    position: relative;
-    z-index: 1;
-    top: -18px;
-    margin: 0 9em;
-    background-color: white;
-    color: var(--main-color);
+#countdownSection {
+  padding: 35px 0;
+  position: relative;
+  z-index: 1;
+  top: -18px;
+  margin: 0 9em;
+  background-color: white;
+  color: var(--main-color);
 }
 
-@media screen and (max-width: 991px){
-  #countdownSection{
-     margin: 0 2em;
+@media screen and (max-width: 991px) {
+  #countdownSection {
+    margin: 0 2em;
     padding: 35px 3px;
     display: block;
-     top: -6px;
+    top: -6px;
   }
- }
+}
 
-#countdownSection > p.text-center > span.countdown-emphasis{
+#countdownSection > p.text-center > span.countdown-emphasis {
   color: var(--sub-color-one);
   font-weight: bold;
 }
 
-#countdownSection > .countdown-holder{
+#countdownSection > .countdown-holder {
   font-size: 26px;
   margin-top: 3em;
   text-align: center;
 }
 
-.date-countdown{
+.date-countdown {
   font-size: 86px;
   font-weight: bold;
   display: flex;
@@ -118,8 +118,8 @@ button.btn-custom {
   font-weight: 500;
 }
 
-@media  screen and (max-width: 767px) {
-  .section-one-buttons{
+@media screen and (max-width: 767px) {
+  .section-one-buttons {
     align-items: flex-end;
     display: flex;
     justify-content: space-around;
@@ -201,35 +201,28 @@ img.icon-img {
 }
 
 /* SECTION THREE - COMPANIES SPONSORS */
-#sectionThree{
+#sectionThree {
   background-color: white;
 }
-
 
 p.section3-title-line {
   font-size: 20px;
   letter-spacing: 1.5px;
-  color: black;  
+  color: black;
   position: relative;
   margin: 45px auto;
 }
 
-
 .section3-title-line:after {
-  content:" ";
+  content: " ";
   height: 0.8px;
-  width:calc(100% - 500px);
+  width: calc(100% - 500px);
   background: #a6a6a6;
   display: inline-block;
   position: absolute;
   top: 50%;
   right: 0;
-};
-
-.partner-title{
-  width: calc(100% - 175px)!important;
 }
-
 
 /* SECTION FOUR - PRODUCT INFO */
 #sectionFour {
@@ -246,14 +239,14 @@ p.section3-title-line {
   margin-bottom: 0.5em;
 }
 
-.video-wrapper{
-  min-width: 100%;         
-  padding-bottom: 56.25%;  
-  height: 0px;           
-  position: relative; 
+.video-wrapper {
+  min-width: 100%;
+  padding-bottom: 56.25%;
+  height: 0px;
+  position: relative;
 }
 
-.video-wrapper > iframe{
+.video-wrapper > iframe {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -266,7 +259,6 @@ p.section3-title-line {
     min-width: 283px;
   }
 }
-
 
 .btn-custom-three {
   background-color: var(--main-color);
@@ -287,16 +279,12 @@ p.section3-title-line {
   background-color: var(--main-color);
 }
 
-/* div#footerMenu > nav.navbar {
-  margin: 20px;
-} */
-
 div#brandingSocials > img {
   height: 76px;
   width: 300px;
 }
 
-.social-media-link{
+.social-media-link {
   padding: 5px;
   font-size: 15px;
   border: 2px solid #fff;
@@ -311,26 +299,24 @@ div#brandingSocials > img {
   color: #fff;
 }
 
-.custom-footer{
-  color:white;
+.custom-footer {
+  color: white;
   font-size: 0.8em;
 }
 
 @media screen and (max-width: 767px) {
-   .footer-social {
+  .footer-social {
     display: flex;
     align-items: stretch;
     justify-content: center;
   }
 
-  div#footerMenu > h3.text-white{
+  div#footerMenu > h3.text-white {
     text-align: center;
   }
 
-  div#footerMenu > ul.nav{
+  div#footerMenu > ul.nav {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
-
 }
