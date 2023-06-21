@@ -27,7 +27,7 @@
   </head>
   <body>
     <nav
-      class="navbar fixed-top navbar-expand-lg bg-custom-navbar navbar-dark "
+      class="navbar fixed-top navbar-expand-lg bg-custom-navbar navbar-dark"
       id="customNav"
     >
       <div class="container">
@@ -57,8 +57,17 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Event</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Event
+              </a>
+              <ul class="dropdown-menu custom-dropdown">
+                <li><a class="dropdown-item custom-dd-item" href="#">Upcoming Event</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Past Conferece</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">2023 Speakers</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">About Us</a>
@@ -66,8 +75,13 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Products</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Insights</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Insights
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Testimonials</a></li>
+              </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#">Contact Us</a>
@@ -147,7 +161,10 @@
       <h2 class="text-center text-black">
         Countdown to International Conference on Cybernics HAL 2023
       </h2>
-      <p class="text-center fs-5">HAL 2023 will be held on <span class="countdown-emphasis">October 13th, 2023</span></p>
+      <p class="text-center fs-5">
+        HAL 2023 will be held on
+        <span class="countdown-emphasis">October 13th, 2023</span>
+      </p>
       <div class="row m-5 countdown-holder"></div>
     </div>
     <main>
@@ -165,7 +182,7 @@
                 Discover what International Conference on Cybernics HAL 2023 has
                 to offer for everyone!
               </p>
-              <div class="pb-4">
+              <div class="pb-4 section-one-buttons">
                 <button type="button" class="btn btn-light btn-custom">
                   More Details
                 </button>
@@ -233,7 +250,11 @@
         <div class="container">
           <div class="row p-5">
             <div class="col-md-12">
-              <img src="images/blockquote.png" class="extra-img-asset" alt="Quotes Mark">
+              <img
+                src="images/blockquote.png"
+                class="extra-img-asset"
+                alt="Quotes Mark"
+              />
               <h4 class="text-uppercase">Sponsorship Opportunities</h4>
               <p class="fw-bold">
                 International Conference on Cybernics HAL 2023 gives you the
@@ -324,24 +345,65 @@
             <div class="col-md-12">
               <div class="row m-3">
                 <p class="text-uppercase section3-title-line">
-                  Meet with Distributors All Around Apac <span class="title-line"></span>
+                  Meet with Distributors All Around Apac
+                  <span class="title-line"></span>
                 </p>
-               
+
                 <div class="col-md-3">
-                  <img src="images/distri1.jpg" class="img-fluid" alt="Futuristics">
+                  <img
+                    src="images/distri1.jpg"
+                    class="img-fluid"
+                    alt="Futuristics"
+                  />
                 </div>
-                <div class="col-md-3"><img src="images/distri2.png" class="img-fluid" alt="Perkeso"></div>
-                <div class="col-md-3"><img src="images/distri3.png" class="img-fluid" alt="Orthocare"></div>
-                <div class="col-md-3"><img src="images/distri4.png" class="img-fluid" alt="Robofit"></div>
-                <div class="col-md-3"><img src="images/distri5.png" class="img-fluid" alt="Robocare"></div>
-                <div class="col-md-3"><img src="images/distri6.png" class="img-fluid" alt="Zignature"></div>
-                <div class="col-md-3"><img src="images/distri7.png" class="img-fluid" alt="CHC"></div>
-                <div class="col-md-3"><img src="images/distri8.png" class="img-fluid" alt="Opto"></div>
+                <div class="col-md-3">
+                  <img
+                    src="images/distri2.png"
+                    class="img-fluid"
+                    alt="Perkeso"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <img
+                    src="images/distri3.png"
+                    class="img-fluid"
+                    alt="Orthocare"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <img
+                    src="images/distri4.png"
+                    class="img-fluid"
+                    alt="Robofit"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <img
+                    src="images/distri5.png"
+                    class="img-fluid"
+                    alt="Robocare"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <img
+                    src="images/distri6.png"
+                    class="img-fluid"
+                    alt="Zignature"
+                  />
+                </div>
+                <div class="col-md-3">
+                  <img src="images/distri7.png" class="img-fluid" alt="CHC" />
+                </div>
+                <div class="col-md-3">
+                  <img src="images/distri8.png" class="img-fluid" alt="Opto" />
+                </div>
               </div>
             </div>
             <div class="col-md-12">
               <div class="row m-3">
-                <p class="text-uppercase section3-title-line partner-title">Our Parnters</p>
+                <p class="text-uppercase section3-title-line partner-title">
+                  Our Parnters
+                </p>
                 <div class="d-flex justify-content-center">
                   <div class="col-md-6">
                     <img
@@ -352,10 +414,10 @@
                   </div>
                   <div class="col-md-6">
                     <img
-                    src="images/ourpart2.png"
-                    alt="Cogy"
-                    class="img-fluid"
-                  />
+                      src="images/ourpart2.png"
+                      alt="Cogy"
+                      class="img-fluid"
+                    />
                   </div>
                 </div>
               </div>
@@ -365,25 +427,31 @@
       </section>
       <section id="sectionFour">
         <div class="container">
-          <div class="row p-5">
+            <div class="row p-5">
           <div class="col-md-12">
             <div class="d-flex justify-content-center">
-              <iframe width="1140" height="500" src="https://www.youtube.com/embed/ofA7oSDFIt4" title="Cyberdyne Product Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="video-wrapper">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ofA7oSDFIt4" title="Cyberdyne Product Introduction Video" frameborder="0"  allowfullscreen></iframe>
+              </div>
             </div>
           </div>
           <div class="row p-5">
             <div class="col-md-12">
-            <h4 class="text-uppercase section4-title">Our Products</h4>
-            <p class="fw-bold fs-5">
-              IHAL [Hybrid Assistive Limb] is the world‘s first * Wearable Cyborg, by which a wearer‘s physical functions can be improved, supported, enhanced and regenerated. Our 3 main products consist of HAL Lower Limb Type, Single Joint Type, and Lumbar Type.
-            </p>
-            <button type="button" class="btn btn-custom-three">View All Products</button>
+              <h4 class="text-uppercase section4-title">Our Products</h4>
+              <p class="fw-bold fs-5 word-break">
+                IHAL [Hybrid Assistive Limb] is the world‘s first * Wearable
+                Cyborg, by which a wearer‘s physical functions can be improved,
+                supported, enhanced and regenerated. Our 3 main products consist
+                of HAL Lower Limb Type, Single Joint Type, and Lumbar Type.
+              </p>
+              <button type="button" class="btn btn-custom-three">
+                View All Products
+              </button>
+            </div>
           </div>
-          </div>
-          
         </div>
         </div>
-        
+      
       </section>
     </main>
     <footer id="websiteFooter">
@@ -392,61 +460,60 @@
           <div class="col-md-6" id="brandingSocials">
             <aside>
               <div class="mb-3">
-                    <img
-              src="images/logo.png"
-              class="img-fluid"
-              alt="Placeholder logo"
-            /> 
+                <img
+                src="images/logo.png"
+                class="img-fluid"
+                alt="Placeholder logo"
+              />
               </div>
-           
+              
             </aside>
             <aside>
-              <div class="footer-social d-flex align-items-stretch">
-                  <span class="social-media-link">
-                <i class="fa-brands fa-facebook"></i>
-              </span>
-              <span class="social-media-link">
-                <i class="fa-brands fa-linkedin"></i>
-              </span>
-              <span class="social-media-link">
-                <i class="fa-brands fa-youtube"></i>
-              </span>
+              <div class="footer-social mb-3">
+                <div class="d-flex align-items-stretch">
+                   <span class="social-media-link">
+                  <i class="fa-brands fa-facebook"></i>
+                </span>
+                <span class="social-media-link">
+                  <i class="fa-brands fa-linkedin"></i>
+                </span>
+                <span class="social-media-link">
+                  <i class="fa-brands fa-youtube"></i>
+                </span>
+                </div>
+               
               </div>
-            
             </aside>
-          
           </div>
           <div class="col-md-6" id="footerMenu">
             <h3 class="text-white text-capitalize">Quick Links</h3>
-            <nav class="navbar navbar-expand-lg bg-custom-navbar navbar-dark">
-              <div class="container">
-               
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Event</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link">Products</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link">Insights</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link">Contact Us</a>
-                    </li>
-                  </ul>
-              
-              </div>
+            <nav class="navbar navbar-expand-sm bg-custom-navbar navbar-dark">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Event</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Insights</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
             </nav>
-            <span class="text-white">2023 CYBERDYNE, INC. 202201004730 (1450427-U). All Rights Reserved ©</span> 
+            <span class="text-white text-center"
+              >2023 CYBERDYNE, INC. 202201004730 (1450427-U). All Rights
+              Reserved ©</span
+            >
           </div>
-         
         </div>
       </div>
     </footer>
@@ -455,6 +522,6 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script
+    <script src="script.js"></script>
   </body>
 </html>
